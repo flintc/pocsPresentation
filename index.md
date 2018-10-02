@@ -11,7 +11,7 @@
 Note: test note
 
 <!--s-->
-<!-- .element: class="banner" -->
+<!-- .element: class="banner" -->           
 <!-- .slide: data-background-image="static/noAlias.png" data-background-repeat="repeat" data-background-size="40%"  data-background-opacity="0.15"-->
 # Introduction
          
@@ -98,7 +98,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 # Results 
 ## Number of Iterations 
 
-<!--v-->
+<!--v--> 
 <!-- .slide: id="clockGT" data-transition="None" data-transition-speed="fast" data-background-opacity="0.25" -->
 
 | <font color="yellow">ground truth</font>	| [low resolution](#/clockNN)	| [bilinear](#/clockBL) 	| 	
@@ -107,7 +107,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 | # Iterations: 	| [10](#/clock10) 	| [50](#/clock50) 	|[100](#/clock100) 	| [1000](#/clock1000)	|
 |:------------:	|:--:	|:--:	|:---:	|:---:	|
 
-<img src='static/pocsVsNumIters/imGT.png' style="width:45vw;" />  
+<img src='static/pocsVsNumIters/imGT.png' style="width:37vw;" />  
 
 <!--v-->
 <!-- .slide: id="clockNN" data-transition="None" data-transition-speed="fast" -->
@@ -118,7 +118,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 | # Iterations: 	| [10](#/clock10) 	| [50](#/clock50) 	|[100](#/clock100) 	| [1000](#/clock1000)	|
 |:------------:	|:--:	|:--:	|:---:	|:---:	|
 
-<img src='static/pocsVsNumIters/imNN.png' style="width:45vw;" />  
+<img src='static/pocsVsNumIters/imNN.png' style="width:37vw;" />  
 
 <!--v-->
 <!-- .slide: id="clockBL" data-transition="None" data-transition-speed="fast" -->
@@ -129,7 +129,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 | # Iterations: 	| [10](#/clock10) 	| [50](#/clock50) 	|[100](#/clock100) 	| [1000](#/clock1000)	|
 |:------------:	|:--:	|:--:	|:---:	|:---:	|
 
-<img src='static/pocsVsNumIters/imBL.png' style="width:45vw;" />  
+<img src='static/pocsVsNumIters/imBL.png' style="width:37vw;" />  
 
 <!--v-->
 <!-- .slide: id="clock10" data-transition="None" data-transition-speed="fast" -->
@@ -140,7 +140,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 | # Iterations: 	| <font color="yellow">10</font>	| [50](#/clock50) 	|[100](#/clock100) 	| [1000](#/clock1000)	|
 |:------------:	|:--:	|:--:	|:---:	|:---:	|
 
-<img src='static/pocsVsNumIters/imHR_numIters10.png' style="width:45vw;" />  
+<img src='static/pocsVsNumIters/imHR_numIters10.png' style="width:37vw;" />  
 
 <!--v-->
 <!-- .slide: id="clock50" data-transition="None" data-transition-speed="fast" center="false" -->
@@ -151,7 +151,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 | # Iterations: 	| [10](#/clock10) 	| <font color="yellow">50</font>	| [100](#/clock100) 	|  [1000](#/clock1000)	|
 |:------------:	|:--:	|:--:	|:---:	|:---:	|
 
-<img src='static/pocsVsNumIters/imHR_numIters50.png' style="width:45vw;" />  
+<img src='static/pocsVsNumIters/imHR_numIters50.png' style="width:37vw;" />  
 
 <!--v-->
 <!-- .slide: id="clock100" data-transition="None" data-transition-speed="fast" center="false" -->
@@ -162,7 +162,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 | # Iterations: 	| [10](#/clock10)  	| [50](#/clock50)  	| <font color="yellow">100</font>  	| [1000](#/clock1000)	|
 |:------------:	|:--:	|:--:	|:---:	|:---:	|
 
-<img src='static/pocsVsNumIters/imHR_numIters100.png' style="width:45vw;" />   
+<img src='static/pocsVsNumIters/imHR_numIters100.png' style="width:37vw;" />   
 
 <!--v-->
 <!-- .slide: id="clock1000" data-transition="None" data-transition-speed="fast" center="false" -->
@@ -172,7 +172,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 | # Iterations: 	| [10](#/clock10)  	| [50](#/clock50) 	| [100](#/clock100) 	| <font color="yellow">1000</font>	|
 |:------------:	|:--:	|:--:	|:---:	|:---:	|
 
-<img src='static/pocsVsNumIters/imHR_numIters1000.png' style="width:45vw;" />  
+<img src='static/pocsVsNumIters/imHR_numIters1000.png' style="width:37vw;" />  
 
 <!--s-->
 <!-- .slide: class="banner" -->
@@ -189,7 +189,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 | # Iterations: 	| [*4*](#/rhees4) 	| [8](#/rheesGT8) 	|[16](#/rheesGT16) 	| [32](#/rheesGT32)	|
 |:------------:	|:--:	|:--:	|:---:	|:---:	|
 
-<img src='static/pocsVsNumObs/imGT.png' style="width:45vw;" />  
+<img src='static/pocsVsNumObs/imGT.png' style="width:37vw;" />  
 
 <!--v-->
 
@@ -201,7 +201,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 | # Iterations: 	| <font color="yellow">4</font> 	| [8](#/rhees8) 	|[16](#/rhees16) 	| [32](#/rhees32)	|
 |:------------:	|:--:	|:--:	|:---:	|:---:	|
 
-<img src='static/pocsVsNumObs/estImHR_nObs4.png' style="width:45vw;" />  
+<img src='static/pocsVsNumObs/estImHR_nObs4.png' style="width:37vw;" />  
 
 <!--v-->
 
@@ -213,7 +213,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 | # Iterations: 	| [4](#/rhees4) 	| <font color="yellow">8</font>  	|[16](#/rhees16) 	| [32](#/rhees32)	|
 |:------------:	|:--:	|:--:	|:---:	|:---:	|
 
-<img src='static/pocsVsNumObs/estImHR_nObs8.png' style="width:45vw;" />  
+<img src='static/pocsVsNumObs/estImHR_nObs8.png' style="width:37vw;" />  
 
 <!--v-->
 
@@ -225,7 +225,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 | # Iterations: 	| [4](#/rhees4) 	| [8](#/rhees8)  	| <font color="yellow">16</font> 	| [32](#/rhees32)	|
 |:------------:	|:--:	|:--:	|:---:	|:---:	|
 
-<img src='static/pocsVsNumObs/estImHR_nObs16.png' style="width:45vw;" />  
+<img src='static/pocsVsNumObs/estImHR_nObs16.png' style="width:37vw;" />  
 
 <!--v-->
 
@@ -237,7 +237,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 | # Iterations: 	| [4](#/rhees4) 	| [8](#/rhees8)  	|[16](#/rhees16) 	| <font color="yellow">32</font> 	|
 |:------------:	|:--:	|:--:	|:---:	|:---:	|
 
-<img src='static/pocsVsNumObs/estImHR_nObs32.png' style="width:45vw;" />  
+<img src='static/pocsVsNumObs/estImHR_nObs32.png' style="width:37vw;" />  
 
 <!--v-->
 <!-- .slide: id="rheesNN4" data-transition="None" data-transition-speed="fast" -->
@@ -248,7 +248,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 | # Iterations: 	| [*4*](#/rhees4) 	| [8](#/rheesNN8) 	|[16](#/rheesNN16) 	| [32](#/rheesNN32)	|
 |:------------:	|:--:	|:--:	|:---:	|:---:	|
 
-<img src='static/pocsVsNumObs/estImSFNN_nObs4.png' style="width:45vw;" />  
+<img src='static/pocsVsNumObs/estImSFNN_nObs4.png' style="width:37vw;" />  
 
 <!--v-->
 <!-- .slide: id="rheesBL4" data-transition="None" data-transition-speed="fast" -->
@@ -259,7 +259,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 | # Iterations: 	| [*4*](#/rhees4) 	| [8](#/rheesBL8) 	|[16](#/rheesBL16) 	| [32](#/rheesBL32)	|
 |:------------:	|:--:	|:--:	|:---:	|:---:	|
 
-<img src='static/pocsVsNumObs/estImMFBL_nObs4_shift.png' style="width:45vw;" /> 
+<img src='static/pocsVsNumObs/estImMFBL_nObs4_shift.png' style="width:37vw;" /> 
 
 <!--v-->
 <!-- .slide: id="rheesGT8" data-transition="None" data-transition-speed="fast" -->
@@ -270,7 +270,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 | # Iterations: 	| [4](#/rheesGT4) 	| [*8*](#/rhees8) 	|[16](#/rheesGT16) 	| [32](#/rheesGT32)	|
 |:------------:	|:--:	|:--:	|:---:	|:---:	|
 
-<img src='static/pocsVsNumObs/imGT.png' style="width:45vw;" />  
+<img src='static/pocsVsNumObs/imGT.png' style="width:37vw;" />  
 
 <!--v-->
 <!-- .slide: id="rheesNN8" data-transition="None" data-transition-speed="fast" -->
@@ -281,7 +281,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 | # Iterations: 	| [4](#/rheesNN4) 	| [*8*](#/rhees8) 	|[16](#/rheesNN16) 	| [32](#/rheesNN32)	|
 |:------------:	|:--:	|:--:	|:---:	|:---:	|
 
-<img src='static/pocsVsNumObs/estImSFNN_nObs8.png' style="width:45vw;" />  
+<img src='static/pocsVsNumObs/estImSFNN_nObs8.png' style="width:37vw;" />  
 
 <!--v-->
 <!-- .slide: id="rheesBL8" data-transition="None" data-transition-speed="fast" -->
@@ -292,7 +292,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 | # Iterations: 	| [4](#/rheesBL4) 	| [*8*](#/rhees8) 	|[16](#/rheesBL16) 	| [32](#/rheesBL32)	|
 |:------------:	|:--:	|:--:	|:---:	|:---:	|
 
-<img src='static/pocsVsNumObs/estImMFBL_nObs8_shift.png' style="width:45vw;" /> 
+<img src='static/pocsVsNumObs/estImMFBL_nObs8_shift.png' style="width:37vw;" /> 
 
 <!--v-->
 <!-- .slide: id="rheesGT16" data-transition="None" data-transition-speed="fast" -->
@@ -303,7 +303,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 | # Iterations: 	| [4](#/rheesGT4) 	| [8](#/rheesGT8) 	|[*16*](#/rhees16) 	| [32](#/rheesGT32)	|
 |:------------:	|:--:	|:--:	|:---:	|:---:	|
 
-<img src='static/pocsVsNumObs/imGT.png' style="width:45vw;" />  
+<img src='static/pocsVsNumObs/imGT.png' style="width:37vw;" />  
 
 <!--v-->
 <!-- .slide: id="rheesNN16" data-transition="None" data-transition-speed="fast" -->
@@ -314,7 +314,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 | # Iterations: 	| [4](#/rheesNN4) 	| [8](#/rheesNN8) 	|[*16*](#/rhees16) 	| [32](#/rheesNN32)	|
 |:------------:	|:--:	|:--:	|:---:	|:---:	|
 
-<img src='static/pocsVsNumObs/estImSFNN_nObs16.png' style="width:45vw;" />  
+<img src='static/pocsVsNumObs/estImSFNN_nObs16.png' style="width:37vw;" />  
 
 <!--v-->
 <!-- .slide: id="rheesBL16" data-transition="None" data-transition-speed="fast" -->
@@ -325,7 +325,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 | # Iterations: 	| [4](#/rheesBL4) 	| [8](#/rheesBL8) 	|[*16*](#/rhees16) 	| [32](#/rheesBL32)	|
 |:------------:	|:--:	|:--:	|:---:	|:---:	|
 
-<img src='static/pocsVsNumObs/estImMFBL_nObs16_shift.png' style="width:45vw;" /> 
+<img src='static/pocsVsNumObs/estImMFBL_nObs16_shift.png' style="width:37vw;" /> 
 
 <!--v-->
 <!-- .slide: id="rheesGT32" data-transition="None" data-transition-speed="fast" -->
@@ -336,7 +336,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 | # Iterations: 	| [4](#/rheesGT4) 	| [8](#/rheesGT8) 	|[16](#/rheesGT16) 	| [*32*](#/rhees32)	|
 |:------------:	|:--:	|:--:	|:---:	|:---:	|
 
-<img src='static/pocsVsNumObs/imGT.png' style="width:45vw;" />  
+<img src='static/pocsVsNumObs/imGT.png' style="width:37vw;" />  
 
 <!--v-->
 <!-- .slide: id="rheesNN32" data-transition="None" data-transition-speed="fast" -->
@@ -347,7 +347,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 | # Iterations: 	| [4](#/rheesNN4) 	| [8](#/rheesNN8) 	|[16](#/rheesNN16) 	| [*32*](#/rhees32)	|
 |:------------:	|:--:	|:--:	|:---:	|:---:	|
 
-<img src='static/pocsVsNumObs/estImSFNN_nObs32.png' style="width:45vw;" />  
+<img src='static/pocsVsNumObs/estImSFNN_nObs32.png' style="width:37vw;" />  
 
 <!--v-->
 <!-- .slide: id="rheesBL32" data-transition="None" data-transition-speed="fast" -->
@@ -358,7 +358,7 @@ Low frequency information is misrepresented in the high frequencies <!-- .elemen
 | # Iterations: 	| [4](#/rheesBL4) 	| [8](#/rheesBL8) 	|[16](#/rheesBL16) 	| [*32*](#/rhees32)	|
 |:------------:	|:--:	|:--:	|:---:	|:---:	|
 
-<img src='static/pocsVsNumObs/estImMFBL_nObs32_shift.png' style="width:45vw;" /> 
+<img src='static/pocsVsNumObs/estImMFBL_nObs32_shift.png' style="width:37vw;" /> 
 
 <!--s-->
 <!-- .slide: class="banner" -->
